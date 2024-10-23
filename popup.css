@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Azul claro suave para o fundo */
+  text-align: center;
+  padding: 10px;
+}
+
+button {
+  background-color: #ffb6c1; 
+  color: #ffffff; 
+  border: none; 
+  padding: 9px 20px;
+  margin: 10px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #87cefa; 
+}
+
+button:active {
+  background-color: #ff69b4;
+}
+
+#increase-small, #increase-large, #decrease-small, #decrease-large, #reset, #read-text, #translate-libras {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
